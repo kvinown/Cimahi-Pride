@@ -1,0 +1,645 @@
+
+/* CSS FOR INDEX HTML */
+.background-index {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/beda\ foto.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* src link : https://pin.it/1ZdwWVo */
+.bg-main {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/bgmain1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+/* src link : https://pin.it/3PudjP4 */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.judul {
+  font-family: righteous;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+  margin-top: 200px;
+  text-align: center;
+}
+.isi-judul {
+  color: white;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: -140px;
+  text-align: center;
+  font-size: medium;
+}
+
+.link {
+    font-size: 30px;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-size: medium;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.row {
+  display: flex;
+  height: 85%;
+  align-items: center;
+}
+.col {
+  flex-basis: 55%;
+}
+.judul-lesson1 {
+  font-size: 100px;
+}
+.button {
+  background-color: green;
+  box-shadow: 0 5px o darkgreen;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 720px;
+}
+.button:hover {
+  background-color: #ce0606;
+  margin-top: 700px;
+}
+
+.button:active {
+  box-shadow: none;
+  top: 5px;
+  margin-bottom: 150px;
+}
+.h1 {
+  color: white;
+}
+.index-style {
+  animation-name: transisi2 ;
+  animation-duration: 3s;
+}
+@keyframes transisi2 {
+  from {
+     margin-top: 100px;
+     opacity: 0%;
+  }
+  to {
+     margin-top: 0px;
+     opacity: 100%;
+  }
+}
+  /* CSS FOR MAIN HTML */
+  .main-page {
+    color: white;
+  }
+  .img-main {
+    margin-right: 0;
+    margin-top: -120px;
+  }
+  .kata-main {
+    color: white;
+    margin-left: 600px;
+    margin-top: -420px;
+  }
+  .btn-mainmenu {
+    display: flex;
+    margin: 2rem 0;
+  }
+  .btn-mulai {
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: white;
+    background: #ff38ef;
+    border-color: #ff38ef;
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-mulai:hover {
+    background: transparent;
+    border-color: #ff38ef;
+    color: white;
+  }
+  .main-style {
+    animation-name: transisi;
+    animation-duration: 3s;
+  }
+  @keyframes transisi {
+    from {
+       margin-top: 100px;
+       opacity: 0%;
+    }
+    to {
+       margin-top: 0px;
+       opacity: 100%;
+    }
+  }
+  /* CSS FOR LESSON 1 */
+.trans-lesson1 {
+  animation-name: trans-lesson1 ;
+  animation-duration: 3s;
+}
+@keyframes trans-lesson1 {
+  from {
+     margin-top: 100px;
+     opacity: 0%;
+  }
+  to {
+     margin-top: 0px;
+     opacity: 100%;
+  }
+}
+.judul-lesson1 {
+  color: white;
+  background-image: url(image/coklatponsy.png);
+  /* link src : https://pin.it/7CaHzTy */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Knewave', cursive;
+  
+}
+.materi-lesson1 {
+  font-family: 'Raleway', sans-serif;
+}
+  .table-materi {
+  font-size: medium;
+  color: white;
+  width: auto;
+}
+.html {
+  color:white;
+  background-color: black;
+  font-family: Courier;
+  padding-left: 10px;
+  padding-right:10px;
+  width:1250px;
+}
+.tagnamecolor {
+  color: cornflowerblue;
+}
+.tagcolor {
+  color: blueviolet;
+  font-family: 'Kaisei Decol', serif;
+}
+.atribute {
+  color: aqua;
+}
+.judul-materi-l1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Kaisei Decol', serif;
+}
+.subjudul-materi-l1 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Kaisei Decol', serif;
+}
+.btn-lesson1 {
+  display: flex;
+    margin: 2rem 0;
+}
+.btn-lanjut2 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  margin-left: 70%;
+}
+.btn-lanjut2:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+.btn-balik1 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+}
+.btn-balik1:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+footer {
+  width: 100vw;
+  display: inline;
+  position: relative;
+  margin-left: 0%;
+}
+.footer-bottom {
+  color: white;
+  background: black;
+  margin-top: 8%;
+  margin-left: -120px;
+  width: 100vw;
+  text-align: center;
+  line-height: 3rem;
+}
+  /* CSS FOR LESSON 2 */
+.trans-lesson2 {
+  animation-name: trans-lesson2;
+  animation-duration: 3s;
+}
+@keyframes trans-lesson2 {
+  from {
+     margin-top: 100px;
+     opacity: 0%;
+  }
+  to {
+     margin-top: 0px;
+     opacity: 100%;
+  }
+}
+.judul-lesson2 {
+  font-size: 100px;
+  color: white;
+  background-image: url(image/coklatponsy.png); 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Knewave', cursive;
+}
+.materi-lesson2 {
+  font-family: 'Raleway', sans-serif;
+}
+.hasil {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  width: 1250px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-lesson2 {
+  display: flex;
+    margin: 2rem 0;
+}
+.btn-lanjut3 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  margin-left: 70%;
+}
+.btn-lanjut3:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+.btn-balik2 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+}
+.btn-balik2:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+  /* CSS FOR LESSON 3 */
+.trans-lesson3 {
+  animation-name: trans-lesson3;
+  animation-duration: 3s;
+  font-family: 'Raleway', sans-serif;
+}
+@keyframes trans-lesson3 {
+  from {
+     margin-top: 100px;
+     opacity: 0%;
+  }
+  to {
+     margin-top: 0px;
+     opacity: 100%;
+  }
+}
+.btn-lesson3 {
+  display: flex;
+  margin: 2rem 0;
+}
+.btn-lanjut4 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  margin-left: 70%;
+}
+.btn-lanjut4:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+.btn-balik3 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+}
+.btn-balik3:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+.judul-lesson3 {
+  font-size: 100px;
+  color: white;
+  background-image: url(image/coklatponsy.png); 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Knewave', cursive;
+}
+.table-materi {
+  width: 1300px;
+}
+.lesson-3 table {
+padding-right: 20px;
+}
+
+  /* CSS FOR LESSON 4 */
+.trans-lesson4 {
+  animation-name: trans-lesson4;
+  animation-duration: 3s;
+  font-family: 'Raleway', sans-serif;
+}
+@keyframes trans-lesson4 {
+  from {
+     margin-top: 100px;
+     opacity: 0%;
+  }
+  to {
+     margin-top: 0px;
+     opacity: 100%;
+  }
+}
+.judul-lesson4 {
+  font-size: 100px;
+  color: white;
+  background-image: url(image/coklatponsy.png); 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Knewave', cursive;
+}
+.btn-lesson4 {
+  display: flex;
+  margin: 2rem 0;
+}
+.btn-balik4 {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color: white;
+  background: #ff38ef;
+  border-color: #ff38ef;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+}
+.btn-balik4:hover {
+  background: transparent;
+  border-color: #ff38ef;
+  color: white;
+}
+
+  /* CSS FOR ABOUT US */
+  .bg-aboutus {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/bgmain.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .background-profile {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/bgabout.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .judul-aboutus {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    font-family: 'Knewave', cursive;
+  }
+  .garis {
+    margin-top: -20px;
+    color: white;
+    width: 170px;
+  }
+  .foto-profile {
+    margin-left: 220px;
+    border-radius: 10%;
+    transition: transform 0.5s;
+  }
+  .foto-profile2 {
+    margin-left: 500px;
+  }
+  .judul-kevin {
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  .desk-kevin {
+    margin-top: -220px;
+    margin-left: 800px;
+    border-radius: 50%;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  .biodata-kevin {
+    font-size: 18px;
+    color: white;
+    margin-left: 60px;
+    margin-top: -350px;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  .instagram img {
+    border-radius: 50%;
+  }
+  .tiktok img {
+    border-radius: 50%;
+  }
+  .judul-cherno {
+    font-size: 70px;
+    margin-left: 450px;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  .desk-cherno {
+    margin-top: -140px;
+    margin-left: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  .biodata-cherno {
+    font-size: 18px;
+    color: white;
+    margin-left: 460px;
+    margin-top: -350px;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  .icons{
+    display: flex;
+    margin-top: -20px;
+  }
+  .icons li {
+    list-style-type: none;
+  }
+  .instagram-c img{
+    border-radius: 50%;;
+  }
+  .tiktok-c img {
+    border-radius: 50%;
+  }
+  .trans {
+    animation-name: fadeIn;
+   animation-duration: 3s;
+  }
+
+@keyframes fadeIn {
+  from {
+     margin-top: 100px;
+     opacity: 0%;
+  }
+  to {
+     margin-top: 0px;
+     opacity: 100%;
+  }
+}
+
+.trans {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+
